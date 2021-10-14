@@ -18467,69 +18467,69 @@ END GROUP
                 0x0000000040105630                g_log_mod
                 0x0000000040105634                g_log_level
  *libfreertos.a:impure.*(.bss .bss.* COMMON)
- *libfreertos.a:tasks.*(.bss .bss.* COMMON)
- .bss.uxSchedulerSuspended
-                0x0000000040105638        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xIdleTaskHandle
-                0x000000004010563c        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xNextTaskUnblockTime
-                0x0000000040105640        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.uxTaskNumber
-                0x0000000040105644        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xNumOfOverflows
-                0x0000000040105648        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xYieldPending
-                0x000000004010564c        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.uxPendedTicks
-                0x0000000040105650        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xSchedulerRunning
-                0x0000000040105654        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.uxTopReadyPriority
-                0x0000000040105658        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xTickCount
-                0x000000004010565c        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.uxCurrentNumberOfTasks
-                0x0000000040105660        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xSuspendedTaskList
-                0x0000000040105664       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.uxDeletedTasksWaitingCleanUp
-                0x0000000040105678        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xTasksWaitingTermination
-                0x000000004010567c       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xPendingReadyList
-                0x0000000040105690       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.pxOverflowDelayedTaskList
-                0x00000000401056a4        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.pxDelayedTaskList
-                0x00000000401056a8        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xDelayedTaskList2
-                0x00000000401056ac       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.xDelayedTaskList1
-                0x00000000401056c0       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.pxReadyTasksLists
-                0x00000000401056d4      0x12c /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
- .bss.pxCurrentTCB
-                0x0000000040105800        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
-                0x0000000040105800                pxCurrentTCB
  *libfreertos.a:freertos_hooks.*(.bss .bss.* COMMON)
  *libfreertos.a:timers.*(.bss .bss.* COMMON)
  .bss.xLastTime$4351
-                0x0000000040105804        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+                0x0000000040105638        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
  .bss.xTimerTaskHandle
-                0x0000000040105808        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+                0x000000004010563c        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
  .bss.xTimerQueue
-                0x000000004010580c        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+                0x0000000040105640        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
  .bss.pxOverflowTimerList
-                0x0000000040105810        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+                0x0000000040105644        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
  .bss.pxCurrentTimerList
-                0x0000000040105814        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+                0x0000000040105648        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
  .bss.xActiveTimerList2
-                0x0000000040105818       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+                0x000000004010564c       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
  .bss.xActiveTimerList1
-                0x000000004010582c       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
+                0x0000000040105660       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
  *libfreertos.a:event_groups.*(.bss .bss.* COMMON)
  *libfreertos.a:queue.*(.bss .bss.* COMMON)
  *libfreertos.a:list.*(.bss .bss.* COMMON)
+ *libfreertos.a:tasks.*(.bss .bss.* COMMON)
+ .bss.uxSchedulerSuspended
+                0x0000000040105674        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xIdleTaskHandle
+                0x0000000040105678        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xNextTaskUnblockTime
+                0x000000004010567c        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.uxTaskNumber
+                0x0000000040105680        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xNumOfOverflows
+                0x0000000040105684        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xYieldPending
+                0x0000000040105688        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.uxPendedTicks
+                0x000000004010568c        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xSchedulerRunning
+                0x0000000040105690        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.uxTopReadyPriority
+                0x0000000040105694        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xTickCount
+                0x0000000040105698        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.uxCurrentNumberOfTasks
+                0x000000004010569c        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xSuspendedTaskList
+                0x00000000401056a0       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.uxDeletedTasksWaitingCleanUp
+                0x00000000401056b4        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xTasksWaitingTermination
+                0x00000000401056b8       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xPendingReadyList
+                0x00000000401056cc       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.pxOverflowDelayedTaskList
+                0x00000000401056e0        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.pxDelayedTaskList
+                0x00000000401056e4        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xDelayedTaskList2
+                0x00000000401056e8       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.xDelayedTaskList1
+                0x00000000401056fc       0x14 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.pxReadyTasksLists
+                0x0000000040105710      0x12c /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+ .bss.pxCurrentTCB
+                0x000000004010583c        0x4 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(tasks.o)
+                0x000000004010583c                pxCurrentTCB
  *libfreertos.a:stream_buffer.*(.bss .bss.* COMMON)
  *liblwip.a:(.bss .bss.* COMMON)
                 0x0000000040105840                . = ALIGN (0x4)
@@ -18655,7 +18655,7 @@ END GROUP
 .dram0.bss      0x000000003ffe8550     0x1938
                 0x000000003ffe8550                . = ALIGN (0x8)
                 0x000000003ffe8550                _bss_start = ABSOLUTE (.)
- *(EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:tasks.* *libfreertos.a:freertos_hooks.* *libfreertos.a:timers.* *libfreertos.a:event_groups.* *libfreertos.a:queue.* *libfreertos.a:list.* *libfreertos.a:stream_buffer.* *libcore.a) .bss EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:tasks.* *libfreertos.a:freertos_hooks.* *libfreertos.a:timers.* *libfreertos.a:event_groups.* *libfreertos.a:queue.* *libfreertos.a:list.* *libfreertos.a:stream_buffer.* *libcore.a) .bss.* EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:tasks.* *libfreertos.a:freertos_hooks.* *libfreertos.a:timers.* *libfreertos.a:event_groups.* *libfreertos.a:queue.* *libfreertos.a:list.* *libfreertos.a:stream_buffer.* *libcore.a) COMMON)
+ *(EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:freertos_hooks.* *libfreertos.a:timers.* *libfreertos.a:event_groups.* *libfreertos.a:queue.* *libfreertos.a:list.* *libfreertos.a:tasks.* *libfreertos.a:stream_buffer.* *libcore.a) .bss EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:freertos_hooks.* *libfreertos.a:timers.* *libfreertos.a:event_groups.* *libfreertos.a:queue.* *libfreertos.a:list.* *libfreertos.a:tasks.* *libfreertos.a:stream_buffer.* *libcore.a) .bss.* EXCLUDE_FILE(*liblwip.a *libfreertos.a:impure.* *libfreertos.a:freertos_hooks.* *libfreertos.a:timers.* *libfreertos.a:event_groups.* *libfreertos.a:queue.* *libfreertos.a:list.* *libfreertos.a:tasks.* *libfreertos.a:stream_buffer.* *libcore.a) COMMON)
  .bss.s_reset_reason
                 0x000000003ffe8550        0x4 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(reset_reason.o)
  .bss.s_nmi_wd_state
@@ -24407,7 +24407,7 @@ END GROUP
                 0x000000004022cc76                _etext = .
                 0x0000000000000000                _flash_cache_start = ABSOLUTE (0x0)
 
-.flash.rodata   0x000000004022cc78     0x7128
+.flash.rodata   0x000000004022cc78     0x714c
                 0x000000004022cc78                _rodata_start = ABSOLUTE (.)
                 0x0000000000000008                . = 0x8
  *fill*         0x000000004022cc78        0x8 
@@ -24586,594 +24586,594 @@ END GROUP
  .rodata.prvProcessReceivedCommands
                 0x000000004022fba8       0x28 /home/osahon/esp/hello_world/build/freertos/libfreertos.a(timers.o)
  .rodata.app_main.str1.4
-                0x000000004022fbd0       0xb0 /home/osahon/esp/hello_world/build/main/libmain.a(hello_world_main.o)
+                0x000000004022fbd0       0xd4 /home/osahon/esp/hello_world/build/main/libmain.a(hello_world_main.o)
  .rodata.abort.str1.4
-                0x000000004022fc80       0x29 /home/osahon/esp/hello_world/build/newlib/libnewlib.a(syscall.o)
- *fill*         0x000000004022fca9        0x3 
+                0x000000004022fca4       0x29 /home/osahon/esp/hello_world/build/newlib/libnewlib.a(syscall.o)
+ *fill*         0x000000004022fccd        0x3 
  .rodata.esp_newlib_init.str1.4
-                0x000000004022fcac       0x10 /home/osahon/esp/hello_world/build/newlib/libnewlib.a(reent_init.o)
+                0x000000004022fcd0       0x10 /home/osahon/esp/hello_world/build/newlib/libnewlib.a(reent_init.o)
                                          0x12 (size before relaxing)
  .rodata.__assert_func.str1.1
-                0x000000004022fcbc       0x3c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-assert.o)
+                0x000000004022fce0       0x3c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-assert.o)
                                          0x3d (size before relaxing)
  .rodata.__sf_fake_stderr
-                0x000000004022fcf8       0x20 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-findfp.o)
-                0x000000004022fcf8                __sf_fake_stderr
+                0x000000004022fd1c       0x20 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x000000004022fd1c                __sf_fake_stderr
  .rodata.__sf_fake_stdout
-                0x000000004022fd18       0x20 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-findfp.o)
-                0x000000004022fd18                __sf_fake_stdout
+                0x000000004022fd3c       0x20 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x000000004022fd3c                __sf_fake_stdout
  .rodata.__sf_fake_stdin
-                0x000000004022fd38       0x20 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-findfp.o)
-                0x000000004022fd38                __sf_fake_stdin
+                0x000000004022fd5c       0x20 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-findfp.o)
+                0x000000004022fd5c                __sf_fake_stdin
  .rodata._svfprintf_r.str1.1
-                0x000000004022fd58       0x11 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-nano-svfprintf.o)
+                0x000000004022fd7c       0x11 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata._vfprintf_r.str1.1
-                0x000000004022fd69       0x11 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x000000004022fd8d       0x11 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x000000004022fd69       0x22 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x000000004022fd8d       0x22 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata._puts_r.str1.1
-                0x000000004022fd8b        0x2 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-puts.o)
+                0x000000004022fdaf        0x2 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-puts.o)
  .rodata._setlocale_r.str1.1
-                0x000000004022fd8b        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-locale.o)
+                0x000000004022fdaf        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-locale.o)
                                           0x9 (size before relaxing)
  .rodata.str1.1
-                0x000000004022fd93        0x2 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-locale.o)
- *fill*         0x000000004022fd95        0x3 
+                0x000000004022fdb7        0x2 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-locale.o)
+ *fill*         0x000000004022fdb9        0x3 
  .rodata.__default_global_locale
-                0x000000004022fd98      0x16c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-locale.o)
-                0x000000004022fd98                __default_global_locale
+                0x000000004022fdbc      0x16c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-locale.o)
+                0x000000004022fdbc                __default_global_locale
  .rodata._ctype_
-                0x000000004022ff04      0x101 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-ctype_.o)
-                0x000000004022ff04                _ctype_
- *fill*         0x0000000040230005        0x3 
+                0x000000004022ff28      0x101 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libc_nano.a(lib_a-ctype_.o)
+                0x000000004022ff28                _ctype_
+ *fill*         0x0000000040230029        0x3 
  .rodata.nvs_flash_init.str1.4
-                0x0000000040230008        0x4 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_api.o)
+                0x000000004023002c        0x4 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_api.o)
  .rodata._ZTVN3nvs15NVSHandleSimpleE
-                0x000000004023000c       0x3c /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_handle_simple.o)
-                0x000000004023000c                _ZTVN3nvs15NVSHandleSimpleE
+                0x0000000040230030       0x3c /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_handle_simple.o)
+                0x0000000040230030                _ZTVN3nvs15NVSHandleSimpleE
  .rodata._ZN3nvs7Storage4initEjj.str1.4
-                0x0000000040230048       0xc5 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- *fill*         0x000000004023010d        0x3 
+                0x000000004023006c       0xc5 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ *fill*         0x0000000040230131        0x3 
  .rodata._ZN3nvs7Storage18writeMultiPageBlobEhPKcPKvjNS_9VerOffsetE.str1.4
-                0x0000000040230110       0x67 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- *fill*         0x0000000040230177        0x1 
+                0x0000000040230134       0x67 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ *fill*         0x000000004023019b        0x1 
  .rodata._ZN3nvs7Storage16cmpMultiPageBlobEhPKcPKvj.str1.4
-                0x0000000040230178       0x53 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- *fill*         0x00000000402301cb        0x1 
+                0x000000004023019c       0x53 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ *fill*         0x00000000402301ef        0x1 
  .rodata._ZN3nvs7Storage18eraseMultiPageBlobEhPKcNS_9VerOffsetE.str1.4
-                0x00000000402301cc       0x28 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+                0x00000000402301f0       0x28 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
  .rodata._ZN3nvs7Storage17readMultiPageBlobEhPKcPvj.str1.4
-                0x00000000402301f4       0x15 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- *fill*         0x0000000040230209        0x3 
+                0x0000000040230218       0x15 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ *fill*         0x000000004023022d        0x3 
  .rodata._ZN3nvs7Storage9writeItemEhNS_8ItemTypeEPKcPKvj.str1.4
-                0x000000004023020c       0x91 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- *fill*         0x000000004023029d        0x3 
+                0x0000000040230230       0x91 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ *fill*         0x00000000402302c1        0x3 
  .rodata._ZZN3nvs7Storage18eraseMultiPageBlobEhPKcNS_9VerOffsetEE19__PRETTY_FUNCTION__
-                0x00000000402302a0       0x51 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- *fill*         0x00000000402302f1        0x3 
+                0x00000000402302c4       0x51 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ *fill*         0x0000000040230315        0x3 
  .rodata._ZZN3nvs7Storage16cmpMultiPageBlobEhPKcPKvjE19__PRETTY_FUNCTION__
-                0x00000000402302f4       0x54 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+                0x0000000040230318       0x54 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
  .rodata._ZZN3nvs7Storage17readMultiPageBlobEhPKcPvjE19__PRETTY_FUNCTION__
-                0x0000000040230348       0x4f /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- *fill*         0x0000000040230397        0x1 
+                0x000000004023036c       0x4f /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ *fill*         0x00000000402303bb        0x1 
  .rodata._ZZN3nvs7Storage9writeItemEhNS_8ItemTypeEPKcPKvjE19__PRETTY_FUNCTION__
-                0x0000000040230398       0x5c /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+                0x00000000402303bc       0x5c /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
  .rodata._ZZN3nvs7Storage18writeMultiPageBlobEhPKcPKvjNS_9VerOffsetEE19__PRETTY_FUNCTION__
-                0x00000000402303f4       0x66 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- *fill*         0x000000004023045a        0x2 
+                0x0000000040230418       0x66 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ *fill*         0x000000004023047e        0x2 
  .rodata._ZZN3nvs4Item8getValueIhEEvRT_E19__PRETTY_FUNCTION__
-                0x000000004023045c       0x36 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
- *fill*         0x0000000040230492        0x2 
+                0x0000000040230480       0x36 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_storage.o)
+ *fill*         0x00000000402304b6        0x2 
  .rodata._ZN3nvs4Page20updateFirstUsedEntryEjj.str1.4
-                0x0000000040230494       0x60 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+                0x00000000402304b8       0x60 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
                                          0xc1 (size before relaxing)
  .rodata._ZN3nvs4Page10initializeEv.str1.4
-                0x00000000402304f4       0x23 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x0000000040230517        0x1 
+                0x0000000040230518       0x23 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x000000004023053b        0x1 
  .rodata._ZN3nvs4Page15alterEntryStateEjNS0_10EntryStateE.str1.4
-                0x0000000040230518       0x14 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+                0x000000004023053c       0x14 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
  .rodata._ZN3nvs4Page10writeEntryERKNS_4ItemE.str1.4
-                0x000000004023052c       0x58 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+                0x0000000040230550       0x58 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
  .rodata._ZN3nvs4Page20alterEntryRangeStateEjjNS0_10EntryStateE.str1.4
-                0x0000000040230584       0x20 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+                0x00000000402305a8       0x20 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
  .rodata._ZN3nvs4Page14writeEntryDataEPKhj.str1.4
-                0x00000000402305a4       0x59 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x00000000402305fd        0x3 
+                0x00000000402305c8       0x59 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x0000000040230621        0x3 
  .rodata._ZN3nvs4Page9writeItemEhNS_8ItemTypeEPKcPKvjh.str1.4
-                0x0000000040230600       0x3a /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x000000004023063a        0x2 
- .rodata._ZN3nvs4Page9copyItemsERS0_.str1.4
-                0x000000004023063c       0x22 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+                0x0000000040230624       0x3a /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
  *fill*         0x000000004023065e        0x2 
+ .rodata._ZN3nvs4Page9copyItemsERS0_.str1.4
+                0x0000000040230660       0x22 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x0000000040230682        0x2 
  .rodata._ZN3nvs4Page15mLoadEntryTableEv.str1.4
-                0x0000000040230660        0xe /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x000000004023066e        0x2 
+                0x0000000040230684        0xe /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x0000000040230692        0x2 
  .rodata._ZZN3nvs4Page20alterEntryRangeStateEjjNS0_10EntryStateEE19__PRETTY_FUNCTION__
-                0x0000000040230670       0x51 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x00000000402306c1        0x3 
+                0x0000000040230694       0x51 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x00000000402306e5        0x3 
  .rodata._ZZN19CompressedEnumTableIN3nvs4Page10EntryStateELj2ELj126EE3setEjS2_E19__PRETTY_FUNCTION__
-                0x00000000402306c4       0xb2 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x0000000040230776        0x2 
+                0x00000000402306e8       0xb2 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x000000004023079a        0x2 
  .rodata._ZZN3nvs4Page15alterEntryStateEjNS0_10EntryStateEE19__PRETTY_FUNCTION__
-                0x0000000040230778       0x44 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+                0x000000004023079c       0x44 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
  .rodata._ZZN3nvs4Page10initializeEvE19__PRETTY_FUNCTION__
-                0x00000000402307bc       0x22 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x00000000402307de        0x2 
+                0x00000000402307e0       0x22 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x0000000040230802        0x2 
  .rodata._ZZN3nvs4Page15mLoadEntryTableEvE19__PRETTY_FUNCTION__
-                0x00000000402307e0       0x27 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x0000000040230807        0x1 
+                0x0000000040230804       0x27 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x000000004023082b        0x1 
  .rodata._ZZN3nvs4Page9copyItemsERS0_E19__PRETTY_FUNCTION__
-                0x0000000040230808       0x2b /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x0000000040230833        0x1 
+                0x000000004023082c       0x2b /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x0000000040230857        0x1 
  .rodata._ZZN3nvs4Page20updateFirstUsedEntryEjjE19__PRETTY_FUNCTION__
-                0x0000000040230834       0x35 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x0000000040230869        0x3 
+                0x0000000040230858       0x35 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x000000004023088d        0x3 
  .rodata._ZZNK19CompressedEnumTableIN3nvs4Page10EntryStateELj2ELj126EE3getEjE19__PRETTY_FUNCTION__
-                0x000000004023086c       0xb2 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x000000004023091e        0x2 
+                0x0000000040230890       0xb2 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x0000000040230942        0x2 
  .rodata._ZZN3nvs4Page9writeItemEhNS_8ItemTypeEPKcPKvjhE19__PRETTY_FUNCTION__
-                0x0000000040230920       0x62 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x0000000040230982        0x2 
+                0x0000000040230944       0x62 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x00000000402309a6        0x2 
  .rodata._ZZN3nvs4Page14writeEntryDataEPKhjE19__PRETTY_FUNCTION__
-                0x0000000040230984       0x3c /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+                0x00000000402309a8       0x3c /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
  .rodata._ZZNK3nvs4Page15getEntryAddressEjE19__PRETTY_FUNCTION__
-                0x00000000402309c0       0x32 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
- *fill*         0x00000000402309f2        0x2 
+                0x00000000402309e4       0x32 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_page.o)
+ *fill*         0x0000000040230a16        0x2 
  .rodata._ZTVN3nvs19NVSPartitionManagerE
-                0x00000000402309f4       0x10 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_partition_manager.o)
-                0x00000000402309f4                _ZTVN3nvs19NVSPartitionManagerE
+                0x0000000040230a18       0x10 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_partition_manager.o)
+                0x0000000040230a18                _ZTVN3nvs19NVSPartitionManagerE
  .rodata._ZTVN3nvs12NVSPartitionE
-                0x0000000040230a04       0x30 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_partition.o)
-                0x0000000040230a04                _ZTVN3nvs12NVSPartitionE
+                0x0000000040230a28       0x30 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_partition.o)
+                0x0000000040230a28                _ZTVN3nvs12NVSPartitionE
  .rodata._ZN3nvs11PageManager14requestNewPageEv.str1.4
-                0x0000000040230a34       0x77 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
- *fill*         0x0000000040230aab        0x1 
+                0x0000000040230a58       0x77 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
+ *fill*         0x0000000040230acf        0x1 
  .rodata._ZN3nvs11PageManager4loadEPNS_9PartitionEjj.str1.4
-                0x0000000040230aac       0x40 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
+                0x0000000040230ad0       0x40 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
  .rodata._ZZN3nvs11PageManager14requestNewPageEvE19__PRETTY_FUNCTION__
-                0x0000000040230aec       0x2d /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
- *fill*         0x0000000040230b19        0x3 
+                0x0000000040230b10       0x2d /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
+ *fill*         0x0000000040230b3d        0x3 
  .rodata._ZZN3nvs11PageManager4loadEPNS_9PartitionEjjE19__PRETTY_FUNCTION__
-                0x0000000040230b1c       0x46 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
- *fill*         0x0000000040230b62        0x2 
+                0x0000000040230b40       0x46 /home/osahon/esp/hello_world/build/nvs_flash/libnvs_flash.a(nvs_pagemanager.o)
+ *fill*         0x0000000040230b86        0x2 
  .rodata.pthread_local_storage_thread_deleted_callback.str1.4
-                0x0000000040230b64       0x55 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread_local_storage.o)
- *fill*         0x0000000040230bb9        0x3 
+                0x0000000040230b88       0x55 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread_local_storage.o)
+ *fill*         0x0000000040230bdd        0x3 
  .rodata.__func__$5253
-                0x0000000040230bbc       0x2e /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread_local_storage.o)
- *fill*         0x0000000040230bea        0x2 
+                0x0000000040230be0       0x2e /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread_local_storage.o)
+ *fill*         0x0000000040230c0e        0x2 
  .rodata.pthread_condattr_setclock.str1.4
-                0x0000000040230bec       0x20 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
+                0x0000000040230c10       0x20 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
  .rodata.pthread_create.str1.4
-                0x0000000040230c0c       0xbf /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
- *fill*         0x0000000040230ccb        0x1 
+                0x0000000040230c30       0xbf /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
+ *fill*         0x0000000040230cef        0x1 
  .rodata.pthread_once.str1.4
-                0x0000000040230ccc       0x12 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
- *fill*         0x0000000040230cde        0x2 
+                0x0000000040230cf0       0x12 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
+ *fill*         0x0000000040230d02        0x2 
  .rodata.pthread_mutex_unlock.str1.4
-                0x0000000040230ce0       0x23 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
- *fill*         0x0000000040230d03        0x1 
+                0x0000000040230d04       0x23 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
+ *fill*         0x0000000040230d27        0x1 
  .rodata.__func__$5546
-                0x0000000040230d04       0x15 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
- *fill*         0x0000000040230d19        0x3 
+                0x0000000040230d28       0x15 /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
+ *fill*         0x0000000040230d3d        0x3 
  .rodata.__FUNCTION__$5501
-                0x0000000040230d1c        0xd /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
- *fill*         0x0000000040230d29        0x3 
+                0x0000000040230d40        0xd /home/osahon/esp/hello_world/build/pthread/libpthread.a(pthread.o)
+ *fill*         0x0000000040230d4d        0x3 
  .rodata.esp_partition_next.str1.4
-                0x0000000040230d2c       0x47 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x0000000040230d73        0x1 
+                0x0000000040230d50       0x47 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x0000000040230d97        0x1 
  .rodata.esp_partition_get.str1.4
-                0x0000000040230d74       0x11 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x0000000040230d85        0x3 
+                0x0000000040230d98       0x11 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x0000000040230da9        0x3 
  .rodata.esp_partition_verify.str1.4
-                0x0000000040230d88       0x12 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x0000000040230d9a        0x2 
+                0x0000000040230dac       0x12 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x0000000040230dbe        0x2 
  .rodata.__func__$3627
-                0x0000000040230d9c       0x1a /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x0000000040230db6        0x2 
+                0x0000000040230dc0       0x1a /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x0000000040230dda        0x2 
  .rodata.__func__$3621
-                0x0000000040230db8       0x14 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+                0x0000000040230ddc       0x14 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
  .rodata.__func__$3614
-                0x0000000040230dcc       0x13 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x0000000040230ddf        0x1 
+                0x0000000040230df0       0x13 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x0000000040230e03        0x1 
  .rodata.__func__$3597
-                0x0000000040230de0       0x12 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x0000000040230df2        0x2 
+                0x0000000040230e04       0x12 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x0000000040230e16        0x2 
  .rodata.__func__$3559
-                0x0000000040230df4       0x13 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
- *fill*         0x0000000040230e07        0x1 
+                0x0000000040230e18       0x13 /home/osahon/esp/hello_world/build/spi_flash/libspi_flash.a(partition.o)
+ *fill*         0x0000000040230e2b        0x1 
  .rodata.uart_tcsetattr
-                0x0000000040230e08       0x7c /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+                0x0000000040230e2c       0x7c /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
  .rodata.uart_access.str1.4
-                0x0000000040230e84        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230e8f        0x1 
+                0x0000000040230ea8        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230eb3        0x1 
  .rodata.uart_fcntl.str1.4
-                0x0000000040230e90       0x4c /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+                0x0000000040230eb4       0x4c /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
  .rodata.uart_return_char.str1.4
-                0x0000000040230edc       0x1d /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230ef9        0x3 
+                0x0000000040230f00       0x1d /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230f1d        0x3 
  .rodata.uart_fsync.str1.4
-                0x0000000040230efc       0x12 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230f0e        0x2 
+                0x0000000040230f20       0x12 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230f32        0x2 
  .rodata.esp_vfs_dev_uart_register.str1.4
-                0x0000000040230f10       0x43 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230f53        0x1 
+                0x0000000040230f34       0x43 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230f77        0x1 
  .rodata.__func__$5992
-                0x0000000040230f54        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230f5f        0x1 
+                0x0000000040230f78        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230f83        0x1 
  .rodata.__func__$6008
-                0x0000000040230f60       0x11 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230f71        0x3 
+                0x0000000040230f84       0x11 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230f95        0x3 
  .rodata.__func__$6014
-                0x0000000040230f74        0xa /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230f7e        0x2 
+                0x0000000040230f98        0xa /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230fa2        0x2 
  .rodata.__func__$6030
-                0x0000000040230f80        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230f8b        0x1 
- .rodata.__func__$6026
-                0x0000000040230f8c        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230f97        0x1 
- .rodata.__func__$6036
-                0x0000000040230f98        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230fa3        0x1 
- .rodata.__func__$6046
                 0x0000000040230fa4        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
  *fill*         0x0000000040230faf        0x1 
+ .rodata.__func__$6026
+                0x0000000040230fb0        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230fbb        0x1 
+ .rodata.__func__$6036
+                0x0000000040230fbc        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230fc7        0x1 
+ .rodata.__func__$6046
+                0x0000000040230fc8        0xb /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230fd3        0x1 
  .rodata.__func__$6244
-                0x0000000040230fb0       0x1a /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
- *fill*         0x0000000040230fca        0x2 
- .rodata.s_ctx  0x0000000040230fcc        0x8 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+                0x0000000040230fd4       0x1a /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
+ *fill*         0x0000000040230fee        0x2 
+ .rodata.s_ctx  0x0000000040230ff0        0x8 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs_uart.o)
  .rodata.translate_path.str1.4
-                0x0000000040230fd4       0x77 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs.o)
- *fill*         0x000000004023104b        0x1 
- .rodata        0x000000004023104c        0x3 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs.o)
- *fill*         0x000000004023104f        0x1 
- .rodata.__func__$5595
-                0x0000000040231050        0xf /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs.o)
- *fill*         0x000000004023105f        0x1 
- .rodata.aes_encrypt_init.str1.4
-                0x0000000040231060       0x13 /home/osahon/esp/hello_world/build/wpa_supplicant/libwpa_supplicant.a(aes-internal-enc.o)
+                0x0000000040230ff8       0x77 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs.o)
+ *fill*         0x000000004023106f        0x1 
+ .rodata        0x0000000040231070        0x3 /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs.o)
  *fill*         0x0000000040231073        0x1 
- .rodata.rcons  0x0000000040231074        0xa /home/osahon/esp/hello_world/build/wpa_supplicant/libwpa_supplicant.a(aes-internal.o)
-                0x0000000040231074                rcons
- *fill*         0x000000004023107e        0x2 
- .rodata.Te0    0x0000000040231080      0x400 /home/osahon/esp/hello_world/build/wpa_supplicant/libwpa_supplicant.a(aes-internal.o)
-                0x0000000040231080                Te0
+ .rodata.__func__$5595
+                0x0000000040231074        0xf /home/osahon/esp/hello_world/build/vfs/libvfs.a(vfs.o)
+ *fill*         0x0000000040231083        0x1 
+ .rodata.aes_encrypt_init.str1.4
+                0x0000000040231084       0x13 /home/osahon/esp/hello_world/build/wpa_supplicant/libwpa_supplicant.a(aes-internal-enc.o)
+ *fill*         0x0000000040231097        0x1 
+ .rodata.rcons  0x0000000040231098        0xa /home/osahon/esp/hello_world/build/wpa_supplicant/libwpa_supplicant.a(aes-internal.o)
+                0x0000000040231098                rcons
+ *fill*         0x00000000402310a2        0x2 
+ .rodata.Te0    0x00000000402310a4      0x400 /home/osahon/esp/hello_world/build/wpa_supplicant/libwpa_supplicant.a(aes-internal.o)
+                0x00000000402310a4                Te0
  .rodata.ccmp_decrypt.str1.4
-                0x0000000040231480        0x7 /home/osahon/esp/hello_world/build/wpa_supplicant/libwpa_supplicant.a(ccmp.o)
+                0x00000000402314a4        0x7 /home/osahon/esp/hello_world/build/wpa_supplicant/libwpa_supplicant.a(ccmp.o)
  .rodata._ZNK9__gnu_cxx24__concurrence_lock_error4whatEv.str1.1
-                0x0000000040231487       0x24 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x00000000402314ab       0x24 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
  .rodata._ZNK9__gnu_cxx26__concurrence_unlock_error4whatEv.str1.1
-                0x00000000402314ab       0x26 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x00000000402314cf       0x26 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
  .rodata._ZTSN9__gnu_cxx24__concurrence_lock_errorE
-                0x00000000402314d1       0x27 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
-                0x00000000402314d1                _ZTSN9__gnu_cxx24__concurrence_lock_errorE
+                0x00000000402314f5       0x27 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x00000000402314f5                _ZTSN9__gnu_cxx24__concurrence_lock_errorE
  .rodata._ZTIN9__gnu_cxx24__concurrence_lock_errorE
-                0x00000000402314f8        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
-                0x00000000402314f8                _ZTIN9__gnu_cxx24__concurrence_lock_errorE
+                0x000000004023151c        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x000000004023151c                _ZTIN9__gnu_cxx24__concurrence_lock_errorE
  .rodata._ZTSN9__gnu_cxx26__concurrence_unlock_errorE
-                0x0000000040231504       0x29 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
-                0x0000000040231504                _ZTSN9__gnu_cxx26__concurrence_unlock_errorE
- *fill*         0x000000004023152d        0x3 
+                0x0000000040231528       0x29 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x0000000040231528                _ZTSN9__gnu_cxx26__concurrence_unlock_errorE
+ *fill*         0x0000000040231551        0x3 
  .rodata._ZTIN9__gnu_cxx26__concurrence_unlock_errorE
-                0x0000000040231530        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
-                0x0000000040231530                _ZTIN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000040231554        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x0000000040231554                _ZTIN9__gnu_cxx26__concurrence_unlock_errorE
  .rodata._ZTVN9__gnu_cxx24__concurrence_lock_errorE
-                0x000000004023153c       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
-                0x000000004023153c                _ZTVN9__gnu_cxx24__concurrence_lock_errorE
+                0x0000000040231560       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x0000000040231560                _ZTVN9__gnu_cxx24__concurrence_lock_errorE
  .rodata._ZTVN9__gnu_cxx26__concurrence_unlock_errorE
-                0x0000000040231550       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
-                0x0000000040231550                _ZTVN9__gnu_cxx26__concurrence_unlock_errorE
+                0x0000000040231574       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x0000000040231574                _ZTVN9__gnu_cxx26__concurrence_unlock_errorE
  .rodata._ZSt7nothrow
-                0x0000000040231564        0x1 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
-                0x0000000040231564                _ZSt7nothrow
+                0x0000000040231588        0x1 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x0000000040231588                _ZSt7nothrow
  .rodata._ZNKSt13bad_exception4whatEv.str1.1
-                0x0000000040231565       0x13 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x0000000040231589       0x13 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
  .rodata._ZTSSt9exception
-                0x0000000040231578        0xd /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
-                0x0000000040231578                _ZTSSt9exception
- *fill*         0x0000000040231585        0x3 
+                0x000000004023159c        0xd /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x000000004023159c                _ZTSSt9exception
+ *fill*         0x00000000402315a9        0x3 
  .rodata._ZTISt9exception
-                0x0000000040231588        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
-                0x0000000040231588                _ZTISt9exception
+                0x00000000402315ac        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x00000000402315ac                _ZTISt9exception
  .rodata._ZTSSt13bad_exception
-                0x0000000040231590       0x12 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
-                0x0000000040231590                _ZTSSt13bad_exception
- *fill*         0x00000000402315a2        0x2 
+                0x00000000402315b4       0x12 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x00000000402315b4                _ZTSSt13bad_exception
+ *fill*         0x00000000402315c6        0x2 
  .rodata._ZTISt13bad_exception
-                0x00000000402315a4        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
-                0x00000000402315a4                _ZTISt13bad_exception
+                0x00000000402315c8        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x00000000402315c8                _ZTISt13bad_exception
  .rodata._ZTSN10__cxxabiv115__forced_unwindE
-                0x00000000402315b0       0x20 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
-                0x00000000402315b0                _ZTSN10__cxxabiv115__forced_unwindE
+                0x00000000402315d4       0x20 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x00000000402315d4                _ZTSN10__cxxabiv115__forced_unwindE
  .rodata._ZTIN10__cxxabiv115__forced_unwindE
-                0x00000000402315d0        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
-                0x00000000402315d0                _ZTIN10__cxxabiv115__forced_unwindE
+                0x00000000402315f4        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x00000000402315f4                _ZTIN10__cxxabiv115__forced_unwindE
  .rodata._ZTSN10__cxxabiv119__foreign_exceptionE
-                0x00000000402315d8       0x24 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
-                0x00000000402315d8                _ZTSN10__cxxabiv119__foreign_exceptionE
+                0x00000000402315fc       0x24 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x00000000402315fc                _ZTSN10__cxxabiv119__foreign_exceptionE
  .rodata._ZTIN10__cxxabiv119__foreign_exceptionE
-                0x00000000402315fc        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
-                0x00000000402315fc                _ZTIN10__cxxabiv119__foreign_exceptionE
+                0x0000000040231620        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x0000000040231620                _ZTIN10__cxxabiv119__foreign_exceptionE
  .rodata._ZTVSt13bad_exception
-                0x0000000040231604       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
-                0x0000000040231604                _ZTVSt13bad_exception
+                0x0000000040231628       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_exception.o)
+                0x0000000040231628                _ZTVSt13bad_exception
  .rodata._ZL28read_encoded_value_with_basehjPKhPj
-                0x0000000040231618       0x34 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_personality.o)
+                0x000000004023163c       0x34 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_personality.o)
  .rodata._ZTSN10__cxxabiv120__si_class_type_infoE
-                0x000000004023164c       0x25 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(si_class_type_info.o)
-                0x000000004023164c                _ZTSN10__cxxabiv120__si_class_type_infoE
- *fill*         0x0000000040231671        0x3 
+                0x0000000040231670       0x25 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(si_class_type_info.o)
+                0x0000000040231670                _ZTSN10__cxxabiv120__si_class_type_infoE
+ *fill*         0x0000000040231695        0x3 
  .rodata._ZTIN10__cxxabiv120__si_class_type_infoE
-                0x0000000040231674        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(si_class_type_info.o)
-                0x0000000040231674                _ZTIN10__cxxabiv120__si_class_type_infoE
+                0x0000000040231698        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(si_class_type_info.o)
+                0x0000000040231698                _ZTIN10__cxxabiv120__si_class_type_infoE
  .rodata._ZTVN10__cxxabiv120__si_class_type_infoE
-                0x0000000040231680       0x2c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(si_class_type_info.o)
-                0x0000000040231680                _ZTVN10__cxxabiv120__si_class_type_infoE
+                0x00000000402316a4       0x2c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(si_class_type_info.o)
+                0x00000000402316a4                _ZTVN10__cxxabiv120__si_class_type_infoE
  .rodata._ZTSSt9bad_alloc
-                0x00000000402316ac        0xd /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(bad_alloc.o)
-                0x00000000402316ac                _ZTSSt9bad_alloc
- *fill*         0x00000000402316b9        0x3 
+                0x00000000402316d0        0xd /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(bad_alloc.o)
+                0x00000000402316d0                _ZTSSt9bad_alloc
+ *fill*         0x00000000402316dd        0x3 
  .rodata._ZTISt9bad_alloc
-                0x00000000402316bc        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(bad_alloc.o)
-                0x00000000402316bc                _ZTISt9bad_alloc
+                0x00000000402316e0        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(bad_alloc.o)
+                0x00000000402316e0                _ZTISt9bad_alloc
  .rodata._ZTSN10__cxxabiv117__class_type_infoE
-                0x00000000402316c8       0x22 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(class_type_info.o)
-                0x00000000402316c8                _ZTSN10__cxxabiv117__class_type_infoE
- *fill*         0x00000000402316ea        0x2 
+                0x00000000402316ec       0x22 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(class_type_info.o)
+                0x00000000402316ec                _ZTSN10__cxxabiv117__class_type_infoE
+ *fill*         0x000000004023170e        0x2 
  .rodata._ZTIN10__cxxabiv117__class_type_infoE
-                0x00000000402316ec        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(class_type_info.o)
-                0x00000000402316ec                _ZTIN10__cxxabiv117__class_type_infoE
+                0x0000000040231710        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(class_type_info.o)
+                0x0000000040231710                _ZTIN10__cxxabiv117__class_type_infoE
  .rodata._ZTVN10__cxxabiv117__class_type_infoE
-                0x00000000402316f8       0x2c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(class_type_info.o)
-                0x00000000402316f8                _ZTVN10__cxxabiv117__class_type_infoE
+                0x000000004023171c       0x2c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(class_type_info.o)
+                0x000000004023171c                _ZTVN10__cxxabiv117__class_type_infoE
  .rodata._ZTSSt9type_info
-                0x0000000040231724        0xd /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(tinfo.o)
-                0x0000000040231724                _ZTSSt9type_info
- *fill*         0x0000000040231731        0x3 
+                0x0000000040231748        0xd /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(tinfo.o)
+                0x0000000040231748                _ZTSSt9type_info
+ *fill*         0x0000000040231755        0x3 
  .rodata._ZTISt9type_info
-                0x0000000040231734        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(tinfo.o)
-                0x0000000040231734                _ZTISt9type_info
+                0x0000000040231758        0x8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(tinfo.o)
+                0x0000000040231758                _ZTISt9type_info
  .rodata._ZNK9__gnu_cxx29__concurrence_broadcast_error4whatEv.str1.1
-                0x000000004023173c       0x29 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x0000000040231760       0x29 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
  .rodata._ZNK9__gnu_cxx24__concurrence_wait_error4whatEv.str1.1
-                0x0000000040231765       0x24 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x0000000040231789       0x24 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
  .rodata._ZTSN9__gnu_cxx29__concurrence_broadcast_errorE
-                0x0000000040231789       0x2c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
-                0x0000000040231789                _ZTSN9__gnu_cxx29__concurrence_broadcast_errorE
- *fill*         0x00000000402317b5        0x3 
+                0x00000000402317ad       0x2c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x00000000402317ad                _ZTSN9__gnu_cxx29__concurrence_broadcast_errorE
+ *fill*         0x00000000402317d9        0x3 
  .rodata._ZTIN9__gnu_cxx29__concurrence_broadcast_errorE
-                0x00000000402317b8        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
-                0x00000000402317b8                _ZTIN9__gnu_cxx29__concurrence_broadcast_errorE
+                0x00000000402317dc        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x00000000402317dc                _ZTIN9__gnu_cxx29__concurrence_broadcast_errorE
  .rodata._ZTSN9__gnu_cxx24__concurrence_wait_errorE
-                0x00000000402317c4       0x27 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
-                0x00000000402317c4                _ZTSN9__gnu_cxx24__concurrence_wait_errorE
- *fill*         0x00000000402317eb        0x1 
+                0x00000000402317e8       0x27 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x00000000402317e8                _ZTSN9__gnu_cxx24__concurrence_wait_errorE
+ *fill*         0x000000004023180f        0x1 
  .rodata._ZTIN9__gnu_cxx24__concurrence_wait_errorE
-                0x00000000402317ec        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
-                0x00000000402317ec                _ZTIN9__gnu_cxx24__concurrence_wait_errorE
+                0x0000000040231810        0xc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x0000000040231810                _ZTIN9__gnu_cxx24__concurrence_wait_errorE
  .rodata._ZTVN9__gnu_cxx29__concurrence_broadcast_errorE
-                0x00000000402317f8       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
-                0x00000000402317f8                _ZTVN9__gnu_cxx29__concurrence_broadcast_errorE
+                0x000000004023181c       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x000000004023181c                _ZTVN9__gnu_cxx29__concurrence_broadcast_errorE
  .rodata._ZTVN9__gnu_cxx24__concurrence_wait_errorE
-                0x000000004023180c       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
-                0x000000004023180c                _ZTVN9__gnu_cxx24__concurrence_wait_errorE
+                0x0000000040231830       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x0000000040231830                _ZTVN9__gnu_cxx24__concurrence_wait_errorE
  .rodata.uart_reset_rx_fifo.str1.4
-                0x0000000040231820       0x21 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x0000000040231841        0x3 
+                0x0000000040231844       0x21 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x0000000040231865        0x3 
  .rodata.uart_set_word_length.str1.4
-                0x0000000040231844        0xf /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x0000000040231853        0x1 
+                0x0000000040231868        0xf /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x0000000040231877        0x1 
  .rodata.uart_get_word_length.str1.4
-                0x0000000040231854        0xe /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x0000000040231862        0x2 
- .rodata.uart_set_stop_bits.str1.4
-                0x0000000040231864        0xf /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x0000000040231873        0x1 
- .rodata.uart_set_parity.str1.4
-                0x0000000040231874       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+                0x0000000040231878        0xe /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
  *fill*         0x0000000040231886        0x2 
+ .rodata.uart_set_stop_bits.str1.4
+                0x0000000040231888        0xf /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x0000000040231897        0x1 
+ .rodata.uart_set_parity.str1.4
+                0x0000000040231898       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x00000000402318aa        0x2 
  .rodata.uart_wait_tx_done.str1.4
-                0x0000000040231888       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x000000004023189a        0x2 
+                0x00000000402318ac       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x00000000402318be        0x2 
  .rodata.uart_flush_input.str1.4
-                0x000000004023189c       0x16 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x00000000402318b2        0x2 
+                0x00000000402318c0       0x16 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x00000000402318d6        0x2 
  .rodata.__FUNCTION__$5220
-                0x00000000402318b4       0x11 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x00000000402318c5        0x3 
+                0x00000000402318d8       0x11 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x00000000402318e9        0x3 
  .rodata.__FUNCTION__$5214
-                0x00000000402318c8       0x1b /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x00000000402318e3        0x1 
+                0x00000000402318ec       0x1b /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x0000000040231907        0x1 
  .rodata.__FUNCTION__$5066
-                0x00000000402318e4       0x13 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x00000000402318f7        0x1 
+                0x0000000040231908       0x13 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x000000004023191b        0x1 
  .rodata.__FUNCTION__$5081
-                0x00000000402318f8       0x17 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x000000004023190f        0x1 
+                0x000000004023191c       0x17 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x0000000040231933        0x1 
  .rodata.__FUNCTION__$5076
-                0x0000000040231910       0x16 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x0000000040231926        0x2 
+                0x0000000040231934       0x16 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x000000004023194a        0x2 
  .rodata.__FUNCTION__$5046
-                0x0000000040231928       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x000000004023193a        0x2 
+                0x000000004023194c       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x000000004023195e        0x2 
  .rodata.__FUNCTION__$5024
-                0x000000004023193c       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x000000004023194e        0x2 
+                0x0000000040231960       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x0000000040231972        0x2 
  .rodata.__FUNCTION__$5019
-                0x0000000040231950       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x0000000040231962        0x2 
+                0x0000000040231974       0x12 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x0000000040231986        0x2 
  .rodata.__FUNCTION__$5014
-                0x0000000040231964       0x10 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+                0x0000000040231988       0x10 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
  .rodata.__FUNCTION__$5009
-                0x0000000040231974       0x10 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+                0x0000000040231998       0x10 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
  .rodata.__FUNCTION__$5004
-                0x0000000040231984       0x13 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x0000000040231997        0x1 
+                0x00000000402319a8       0x13 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x00000000402319bb        0x1 
  .rodata.__FUNCTION__$4999
-                0x0000000040231998       0x13 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x00000000402319ab        0x1 
+                0x00000000402319bc       0x13 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x00000000402319cf        0x1 
  .rodata.__FUNCTION__$4994
-                0x00000000402319ac       0x15 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x00000000402319c1        0x3 
+                0x00000000402319d0       0x15 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x00000000402319e5        0x3 
  .rodata.__FUNCTION__$4989
-                0x00000000402319c4       0x15 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
- *fill*         0x00000000402319d9        0x3 
- .rodata        0x00000000402319dc        0x8 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(esp_sleep.o)
+                0x00000000402319e8       0x15 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(uart.o)
+ *fill*         0x00000000402319fd        0x3 
+ .rodata        0x0000000040231a00        0x8 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(esp_sleep.o)
  .rodata.str1.4
-                0x00000000402319e4        0xb /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(esp_wifi.o)
- *fill*         0x00000000402319ef        0x1 
+                0x0000000040231a08        0xb /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(esp_wifi.o)
+ *fill*         0x0000000040231a13        0x1 
  .rodata.ets_printf_str.str1.4
-                0x00000000402319f0        0x7 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(ets_printf.o)
- *fill*         0x00000000402319f7        0x1 
+                0x0000000040231a14        0x7 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(ets_printf.o)
+ *fill*         0x0000000040231a1b        0x1 
  .rodata.ets_vprintf.str1.4
-                0x00000000402319f8        0x3 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(ets_printf.o)
- *fill*         0x00000000402319fb        0x1 
+                0x0000000040231a1c        0x3 /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(ets_printf.o)
+ *fill*         0x0000000040231a1f        0x1 
  .rodata.ets_vprintf
-                0x00000000402319fc       0x5c /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(ets_printf.o)
- .rodata        0x0000000040231a58      0x5b8 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(unwind-dw2.o)
- .rodata        0x0000000040232010       0x34 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(unwind-dw2-fde.o)
+                0x0000000040231a20       0x5c /home/osahon/esp/hello_world/build/esp8266/libesp8266.a(ets_printf.o)
+ .rodata        0x0000000040231a7c      0x5b8 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(unwind-dw2.o)
+ .rodata        0x0000000040232034       0x34 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(unwind-dw2-fde.o)
  .rodata.esp_unknown_msg
-                0x0000000040232044        0x6 /home/osahon/esp/hello_world/build/esp_common/libesp_common.a(esp_err_to_name.o)
- *fill*         0x000000004023204a        0x2 
+                0x0000000040232068        0x6 /home/osahon/esp/hello_world/build/esp_common/libesp_common.a(esp_err_to_name.o)
+ *fill*         0x000000004023206e        0x2 
  .rodata.str1.4
-                0x000000004023204c      0x995 /home/osahon/esp/hello_world/build/esp_common/libesp_common.a(esp_err_to_name.o)
- *fill*         0x00000000402329e1        0x3 
+                0x0000000040232070      0x995 /home/osahon/esp/hello_world/build/esp_common/libesp_common.a(esp_err_to_name.o)
+ *fill*         0x0000000040232a05        0x3 
  .rodata.esp_err_msg_table
-                0x00000000402329e4      0x310 /home/osahon/esp/hello_world/build/esp_common/libesp_common.a(esp_err_to_name.o)
+                0x0000000040232a08      0x310 /home/osahon/esp/hello_world/build/esp_common/libesp_common.a(esp_err_to_name.o)
  .rodata.str1.4
-                0x0000000040232cf4        0x9 /home/osahon/esp/hello_world/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
- *fill*         0x0000000040232cfd        0x3 
+                0x0000000040232d18        0x9 /home/osahon/esp/hello_world/build/tcpip_adapter/libtcpip_adapter.a(tcpip_adapter_lwip.o)
+ *fill*         0x0000000040232d21        0x3 
  .rodata.esp_system_event_debug.str1.4
-                0x0000000040232d00       0x29 /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(default_event_loop.o)
- *fill*         0x0000000040232d29        0x3 
+                0x0000000040232d24       0x29 /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(default_event_loop.o)
+ *fill*         0x0000000040232d4d        0x3 
  .rodata.esp_event_send_to_default_loop
-                0x0000000040232d2c       0x68 /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(default_event_loop.o)
+                0x0000000040232d50       0x68 /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(default_event_loop.o)
  .rodata.esp_event_loop_create.str1.4
-                0x0000000040232d94       0xc8 /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(esp_event.o)
+                0x0000000040232db8       0xc8 /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(esp_event.o)
                                          0xc9 (size before relaxing)
  .rodata.esp_event_loop_run.str1.4
-                0x0000000040232e5c        0xc /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(esp_event.o)
+                0x0000000040232e80        0xc /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(esp_event.o)
                                           0xb (size before relaxing)
  .rodata.__func__$6754
-                0x0000000040232e68       0x12 /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(esp_event.o)
+                0x0000000040232e8c       0x12 /home/osahon/esp/hello_world/build/esp_event/libesp_event.a(esp_event.o)
  *(.irom1.text)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x0000000040232e7a                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x0000000040232e9e                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table .gcc_except_table.*)
- *fill*         0x0000000040232e7a        0x2 
+ *fill*         0x0000000040232e9e        0x2 
  .gcc_except_table._ZN9__gnu_cxx13__scoped_lockD2Ev
-                0x0000000040232e7c       0x11 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x0000000040232ea0       0x11 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
  .gcc_except_table._ZSt15get_new_handlerv
-                0x0000000040232e8d        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x0000000040232eb1        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
  .gcc_except_table._GLOBAL__sub_D__ZSt7nothrow
-                0x0000000040232e91        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+                0x0000000040232eb5        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
  .gcc_except_table.__cxa_allocate_exception
-                0x0000000040232e95        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
+                0x0000000040232eb9        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
  .gcc_except_table.__cxa_free_exception
-                0x0000000040232e99        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
+                0x0000000040232ebd        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
  .gcc_except_table._GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv
-                0x0000000040232e9d       0x10 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
+                0x0000000040232ec1       0x10 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
  .gcc_except_table._GLOBAL__sub_D__ZN9__gnu_cxx9__freeresEv
-                0x0000000040232ead        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
- *fill*         0x0000000040232eb1        0x3 
+                0x0000000040232ed1        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
+ *fill*         0x0000000040232ed5        0x3 
  .gcc_except_table.__gxx_personality_v0
-                0x0000000040232eb4       0x1c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_personality.o)
+                0x0000000040232ed8       0x1c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_personality.o)
  .gcc_except_table.__cxa_call_unexpected
-                0x0000000040232ed0       0x1c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_personality.o)
+                0x0000000040232ef4       0x1c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_personality.o)
  .gcc_except_table._ZN10__cxxabiv111__terminateEPFvvE
-                0x0000000040232eec       0x1d /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
+                0x0000000040232f10       0x1d /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
  .gcc_except_table._ZSt13get_terminatev
-                0x0000000040232f09        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
+                0x0000000040232f2d        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
  .gcc_except_table._ZSt14get_unexpectedv
-                0x0000000040232f0d        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
+                0x0000000040232f31        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
  .gcc_except_table._GLOBAL__sub_D__ZN10__cxxabiv111__terminateEPFvvE
-                0x0000000040232f11        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
+                0x0000000040232f35        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
  .gcc_except_table.__cxa_get_globals_fast
-                0x0000000040232f15        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
+                0x0000000040232f39        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
  .gcc_except_table.__cxa_get_globals
-                0x0000000040232f19        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
+                0x0000000040232f3d        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
  .gcc_except_table._GLOBAL__sub_D___cxa_get_globals_fast
-                0x0000000040232f1d        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
- *fill*         0x0000000040232f21        0x3 
+                0x0000000040232f41        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
+ *fill*         0x0000000040232f45        0x3 
  .gcc_except_table._ZnwjRKSt9nothrow_t
-                0x0000000040232f24       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_opnt.o)
+                0x0000000040232f48       0x14 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_opnt.o)
  .gcc_except_table._ZN9__gnu_cxx18__exchange_and_addEPVii
-                0x0000000040232f38       0x21 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(atomicity.o)
+                0x0000000040232f5c       0x21 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(atomicity.o)
  .gcc_except_table._ZN12_GLOBAL__N_113mutex_wrapperD2Ev
-                0x0000000040232f59        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x0000000040232f7d        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
  .gcc_except_table.__cxa_guard_acquire
-                0x0000000040232f5d       0x12 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
- *fill*         0x0000000040232f6f        0x1 
+                0x0000000040232f81       0x12 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+ *fill*         0x0000000040232f93        0x1 
  .gcc_except_table.__cxa_guard_abort
-                0x0000000040232f70       0x19 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
- *fill*         0x0000000040232f89        0x3 
+                0x0000000040232f94       0x19 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+ *fill*         0x0000000040232fad        0x3 
  .gcc_except_table.__cxa_guard_release
-                0x0000000040232f8c       0x19 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+                0x0000000040232fb0       0x19 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
-                0x0000000040232fa8                . = ((. + 0x3) & 0xfffffffffffffffc)
- *fill*         0x0000000040232fa5        0x3 
-                0x0000000040232fa8                __eh_frame = ABSOLUTE (.)
+                0x0000000040232fcc                . = ((. + 0x3) & 0xfffffffffffffffc)
+ *fill*         0x0000000040232fc9        0x3 
+                0x0000000040232fcc                __eh_frame = ABSOLUTE (.)
  *(.eh_frame)
- .eh_frame      0x0000000040232fa8       0xdc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
- .eh_frame      0x0000000040233084      0x1b4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
- .eh_frame      0x0000000040233238      0x1ac /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_personality.o)
- .eh_frame      0x00000000402333e4      0x1a0 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
- .eh_frame      0x0000000040233584       0xb8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
- .eh_frame      0x000000004023363c       0x30 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_catch.o)
- .eh_frame      0x000000004023366c       0x8c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(si_class_type_info.o)
- .eh_frame      0x00000000402336f8       0x44 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_opnt.o)
- .eh_frame      0x000000004023373c       0x74 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_throw.o)
- .eh_frame      0x00000000402337b0       0x68 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(class_type_info.o)
- .eh_frame      0x0000000040233818       0x70 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(atomicity.o)
- .eh_frame      0x0000000040233888      0x184 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
- .eh_frame      0x0000000040233a0c      0x278 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(unwind-dw2.o)
- .eh_frame      0x0000000040233c84       0xc0 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(unwind-dw2-fde.o)
- .eh_frame      0x0000000040233d44       0x38 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(_moddi3.o)
-                0x0000000040233d80                . = ((. + 0x7) & 0xfffffffffffffffc)
- *fill*         0x0000000040233d7c        0x4 
-                0x0000000040233d80                __init_array_start = ABSOLUTE (.)
+ .eh_frame      0x0000000040232fcc       0xdc /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+ .eh_frame      0x00000000402330a8      0x1b4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
+ .eh_frame      0x000000004023325c      0x1ac /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_personality.o)
+ .eh_frame      0x0000000040233408      0x1a0 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
+ .eh_frame      0x00000000402335a8       0xb8 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
+ .eh_frame      0x0000000040233660       0x30 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_catch.o)
+ .eh_frame      0x0000000040233690       0x8c /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(si_class_type_info.o)
+ .eh_frame      0x000000004023371c       0x44 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_opnt.o)
+ .eh_frame      0x0000000040233760       0x74 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_throw.o)
+ .eh_frame      0x00000000402337d4       0x68 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(class_type_info.o)
+ .eh_frame      0x000000004023383c       0x70 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(atomicity.o)
+ .eh_frame      0x00000000402338ac      0x184 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(guard.o)
+ .eh_frame      0x0000000040233a30      0x278 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(unwind-dw2.o)
+ .eh_frame      0x0000000040233ca8       0xc0 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(unwind-dw2-fde.o)
+ .eh_frame      0x0000000040233d68       0x38 /opt/esp_sdk/ESP8266_RTOS_SDK/components/esp8266/lib/libgcc.a(_moddi3.o)
+                0x0000000040233da4                . = ((. + 0x7) & 0xfffffffffffffffc)
+ *fill*         0x0000000040233da0        0x4 
+                0x0000000040233da4                __init_array_start = ABSOLUTE (.)
  *(EXCLUDE_FILE(*crtbegin.* *crtend.*) .ctors .ctors.*)
- .ctors         0x0000000040233d80        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
- .ctors         0x0000000040233d84        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
- .ctors         0x0000000040233d88        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
- .ctors         0x0000000040233d8c        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
-                0x0000000040233d90                __init_array_end = ABSOLUTE (.)
+ .ctors         0x0000000040233da4        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+ .ctors         0x0000000040233da8        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
+ .ctors         0x0000000040233dac        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
+ .ctors         0x0000000040233db0        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
+                0x0000000040233db4                __init_array_end = ABSOLUTE (.)
  *crtbegin.*(.dtors)
  *(EXCLUDE_FILE(*crtend.*) .dtors)
- .dtors         0x0000000040233d90        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
- .dtors         0x0000000040233d94        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
- .dtors         0x0000000040233d98        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
- .dtors         0x0000000040233d9c        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
+ .dtors         0x0000000040233db4        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(new_handler.o)
+ .dtors         0x0000000040233db8        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_alloc.o)
+ .dtors         0x0000000040233dbc        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_terminate.o)
+ .dtors         0x0000000040233dc0        0x4 /opt/esp_tools/tools/xtensa-lx106-elf/esp-2020r3-49-gd5524c1-8.4.0/xtensa-lx106-elf/bin/../lib/gcc/xtensa-lx106-elf/8.4.0/../../../../xtensa-lx106-elf/lib/libstdc++.a(eh_globals.o)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x0000000040233da0                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x0000000040233dc4                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x0000000040233da0                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x0000000040233dc4                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x0000000040233da0                soc_reserved_memory_region_start = ABSOLUTE (.)
+                0x0000000040233dc4                soc_reserved_memory_region_start = ABSOLUTE (.)
  *(.reserved_memory_address)
-                0x0000000040233da0                soc_reserved_memory_region_end = ABSOLUTE (.)
-                0x0000000040233da0                _rodata_end = ABSOLUTE (.)
-                0x0000000040233da0                _lit4_start = ABSOLUTE (.)
+                0x0000000040233dc4                soc_reserved_memory_region_end = ABSOLUTE (.)
+                0x0000000040233dc4                _rodata_end = ABSOLUTE (.)
+                0x0000000040233dc4                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x0000000040233da0                _lit4_end = ABSOLUTE (.)
-                0x0000000040233da0                . = ALIGN (0x4)
-                0x0000000040233da0                _thread_local_start = ABSOLUTE (.)
+                0x0000000040233dc4                _lit4_end = ABSOLUTE (.)
+                0x0000000040233dc4                . = ALIGN (0x4)
+                0x0000000040233dc4                _thread_local_start = ABSOLUTE (.)
  *(.tdata)
  *(.tdata.*)
  *(.tbss)
  *(.tbss.*)
-                0x0000000040233da0                _thread_local_end = ABSOLUTE (.)
-                0x0000000040233da0                . = ALIGN (0x4)
+                0x0000000040233dc4                _thread_local_end = ABSOLUTE (.)
+                0x0000000040233dc4                . = ALIGN (0x4)
                 0x00000000400040c0                PROVIDE (SPI_sector_erase = 0x400040c0)
                 0x0000000040004174                PROVIDE (SPI_page_program = 0x40004174)
                 0x00000000400042ac                PROVIDE (SPI_read_data = 0x400042ac)
